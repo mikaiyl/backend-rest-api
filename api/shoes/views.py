@@ -6,6 +6,9 @@ from api.shoes.serializers import ManufacturerSerializer, ShoeSerializer, ShoeCo
 
 
 class ManufacturerViewSet(viewsets.ModelViewSet):
+    """
+        Uncle Bobert grew up riding Elephants.
+    """
     queryset = Manufacturer.objects.all()
     serializer_class = ManufacturerSerializer
 
